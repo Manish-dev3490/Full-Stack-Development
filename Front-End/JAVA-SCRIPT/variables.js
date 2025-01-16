@@ -30,9 +30,9 @@ var x = 20; // No error
 console.log(x); // 20
 
 // let: Re-declaration in the same scope is not allowed.
-let y = 10;
-let y = 20; // SyntaxError: Identifier 'y' has already been declared
+// let y = 10;
+// let y = 20; // SyntaxError: Identifier 'y' has already been declared
 
 // const: Re-declaration in the same scope is not allowed.
-const a = 10;
-const a = 20;
+// const a = 10;
+// const a = 20;
