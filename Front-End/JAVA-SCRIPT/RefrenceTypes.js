@@ -2,26 +2,36 @@
 
 // creating an object - this is the way to create an object
 const user = {
-  firstname: "manish",
-  lastName: "kumar",
-  age: 22,
+    firstname: "manish",
+    lastName: "kumar",
+    age: 22,
+    address:{
+        state:"Delhi",
+        city:"Najafgarh",
+        
+    }
 };
 
 // accessing an object - this is the way 1 to access properties of an object
-console.log(user.firstname);
-console.log(user.age);
+// console.log(user.firstname);
+// console.log(user.age);
 
 // accessing an object - this is the way 2 to access properties of an object
-console.log(user["firstname"]);
-console.log(user["age"]);
+// console.log(user["firstname"]);
+// console.log(user["age"]);
 
 // updating a object - we can also update our object from outside the object
 user.contactNo = 9643623490;
 user.address = "Chirag Delhi 359 Near Bhagat Singh College";
 
-console.log(user);
+// console.log(user);
 
 //How to delete a property from an object
 delete user.age;
 delete user.firstname;
-console.log(user);
+// console.log(user);
+
+
+
+
+//  Now i am going to understand variables , objects in depth
