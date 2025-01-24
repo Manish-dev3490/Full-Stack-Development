@@ -8,6 +8,11 @@ let user ={
     lname:"kumar"
 }
 
-let user2=user;
-user2.age=22;
-user2="manish kumar the great";
+// let user2=user;
+// user2.age=22;
+// user2="manish kumar the great";
+
+//  copying a object with duplicate values
+const user2={...user};
+user.age=22;
+user.fname="khushi";
